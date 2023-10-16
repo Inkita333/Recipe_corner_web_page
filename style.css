@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100vw;
+    overflow-x: none;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navContainer{
+    width: 100vw;
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #800080;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to bottom, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to bottom, #ffc0cb, #800080); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+
+    min-height: 80px; */
+    
+}
+
+#navlist{
+    list-style: none;
+    font-size: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;*/
+} 
+#para{
+    color: beige;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(248, 248, 248); 
+}
+#anchor{
+    display: flex;
+    gap: 40px;
+}
+
+.footerBox{
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #9733EE, #DA22FF);
+    color: black;
+    text-align: center;
+    min-height: 40px;
+    font-size: 2rem;
+}
+
+.contentBox{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 3rem;
+    box-shadow: 0px 0px 40px black;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightBox img{
+    height: 400px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+}
+.rightBox img:hover{
+    transform: scale(1.2);
+}
+.leftBox{
+    display:flex;
+    flex-direction: column;
+    gap: 20px
+}
+.leftBox h1{
+    font-size: 2rem;;
+}
+.leftBox h2{
+    font-size: 1.5rem;
+}
